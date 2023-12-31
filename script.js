@@ -22,7 +22,7 @@ t.from(".page1-main h2",{
 t.from(".inner h1",{
     x: -50,
     y: 50,
-    duration: .7,
+    duration: .6,
     opacity: 0,
     stagger:.2
 },"ani")
@@ -37,7 +37,6 @@ gsap.to(".fleft",{
         trigger:".element",
         start:"top top",
         end:"buttom top",
-        // markers: true,
         endTrigger: ".last",
         pin: true,
         scrub:3
